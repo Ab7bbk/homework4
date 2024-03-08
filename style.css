@@ -1,0 +1,64 @@
+.block1 {
+    background-color: green;
+    color: black;
+    width: 800px;
+    overflow-x: scroll;
+    p {
+        width: 1200px;
+    }
+}
+.block2 {
+    background-color: blue;
+    color: red;
+    width: 500px;
+    height: 150px;
+    
+    overflow-y: scroll;
+    p {
+        letter-spacing: 5px;
+    }
+}
+.block3 {
+    background-color: green;
+    overflow-x: scroll;
+    width: 700px;
+    
+    padding-top: 30px;
+    .immg {
+        border: 1px solid;
+        border-radius: 30px;
+        width: 200px;
+        height: 150px;
+       margin-right: 30px;
+       transition: 0.5s;
+
+    &:hover {
+        opacity: 0.5;
+    }
+
+    }
+}
+.box {
+    width: 1900px;
+}
+.block4 {
+    background-color:blue;
+    width: 500px;
+    padding-top: 50px;
+    img {
+        border: 1px solid white;
+        border-radius: 30px;
+        width: 200px;
+        height: 150px;
+        margin-right: -150px;
+        transition: 1.5s;
+        position: relative;
+        &:hover {
+            z-index: 1;
+        }
+
+    }
+}
+.box2 {
+    width: 1700px;
+}
